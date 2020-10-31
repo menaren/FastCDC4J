@@ -7,6 +7,7 @@ import de.zabuza.fastcdc4j.internal.util.Util;
 import de.zabuza.fastcdc4j.internal.util.Validations;
 
 import java.io.InputStream;
+import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Iterator;

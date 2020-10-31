@@ -218,7 +218,7 @@ public final class ChunkerBuilder {
 	 */
 	public ChunkerBuilder nlFiedlerRust() {
 		chunkerOption = ChunkerOption.NLFIEDLER_RUST;
-		hashMethod = ChunkerBuilder.DEFAULT_HASH_METHOD;
+		hashMethod = "SHA-256";
 		expectedChunkSize = ChunkerBuilder.DEFAULT_EXPECTED_CHUNK_SIZE;
 		minimalChunkSizeFactor = ChunkerBuilder.DEFAULT_MIN_SIZE_FACTOR;
 		maximalChunkSizeFactor = ChunkerBuilder.DEFAULT_MAX_SIZE_FACTOR;
